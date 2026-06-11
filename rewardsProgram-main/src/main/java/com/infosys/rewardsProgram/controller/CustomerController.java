@@ -27,14 +27,4 @@ public class CustomerController {
         return ResponseEntity.ok(customerService.registerCustomer(customer));
     }
 
-//    @PostMapping("/login")
-//    public ResponseEntity<?> loginCustomer(@RequestParam String email, @RequestParam String password) {
-//        return ResponseEntity.ok(customerService.loginCustomer(email, password));
-//    }
-
-//    @PostMapping("/logoff")
-//    public ResponseEntity<Void> logoffCustomer(@RequestParam Long customerId) {
-//        customerService.logoffCustomer(customerId);
-//        return ResponseEntity.ok().build();
-//    }
 }
